@@ -1058,7 +1058,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(8, 33, 80, 0.9), rgba(8, 33, 80, 0.9)), url("../img/AdobeStock_113685095_Preview.jpg") fixed center center;
+  background: linear-gradient(rgba(252, 163, 17, 0.9), rgba(252, 163, 17, 0.9)), url("../img/AdobeStock_113685095_Preview.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
