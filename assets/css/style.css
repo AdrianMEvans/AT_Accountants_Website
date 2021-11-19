@@ -1067,6 +1067,11 @@ section {
   font-size: 28px;
   font-weight: 700;
 }
+.cta h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
 .cta p {
   color: #fff;
 }
