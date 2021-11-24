@@ -150,7 +150,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 375px) {
   #header .logo img {
-    display: none;
+    max-height: 40px;
+  }
+  #header .logo a {
+    visibility: hidden;
   }
 }
 
