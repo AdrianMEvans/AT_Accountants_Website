@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   padding: 15px 0;
   background-color: #082150;
+  border-bottom: 5px solid #fca311;
 }
 #header.header-scrolled, #header.header-inner-pages {
   background: rgba(8, 33, 80, 0.9);
