@@ -1948,27 +1948,40 @@ section {
 .post-preview > a > .post-subtitle {
   font-family: "Jost", sans-serif;
   font-weight: 200;
+  font-size: 1.25rem;
   margin-bottom: 0.625rem;
   color: #082150;
 }
+@media (max-width: 991px) {
+  .post-preview > a > .post-subtitle {
+    font-size: 0.75rem;
+  }
+  .post-preview > a > .post-title {
+    font-size: 1.5rem;
+  }
+}
 
 .post-preview > .post-meta {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-style: italic;
   margin-top: 0;
   color: #082150;
 }
-/* .post-preview > a:focus, .post-preview > a:hover */
+@media (max-width: 991px) {
+  .post-preview > .post-meta {
+    font-size: 0.625rem;
+  }
+}
 .post-preview > a:focus, .post-meta > a:hover {
   text-decoration: none;
   color: #082150;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .post-preview > a > .post-title {
     font-size: 2.25rem;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Blog masthead
