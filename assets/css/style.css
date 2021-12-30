@@ -1908,3 +1908,64 @@ section {
     padding-top: 4px;
   }
 }
+
+
+/*--------------------------------------------------------------
+# Blog Pages
+--------------------------------------------------------------*/
+
+#blog .btn-get-started {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #fca311;
+}
+#blog .btn-get-started:hover {
+  background: #FC8E11;
+}
+
+.post-preview > a {
+  color: #fca311;
+}
+
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: #082150;
+}
+.post-preview > a > .post-title {
+  font-family: "Jost", sans-serif;
+  font-size: 1.875rem;
+  margin-top: 1.875rem;
+  margin-bottom: 0.625rem;
+}
+.post-preview > a > .post-subtitle {
+  font-family: "Jost", sans-serif;
+  font-weight: 200;
+  margin-bottom: 0.625rem;
+  color: #082150;
+}
+
+.post-preview > .post-meta {
+  font-size: 1.125rem;
+  font-style: italic;
+  margin-top: 0;
+  color: #082150;
+}
+/* .post-preview > a:focus, .post-preview > a:hover */
+.post-preview > a:focus, .post-meta > a:hover {
+  text-decoration: none;
+  color: #082150;
+}
+
+@media (min-width: 992px) {
+  .post-preview > a > .post-title {
+    font-size: 2.25rem;
+  }
+}
