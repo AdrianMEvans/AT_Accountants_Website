@@ -500,7 +500,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
 }
 #servicehero .carousel-item {
-  background-size: cover;
+  background-size: cover ;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -531,7 +531,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #servicehero .carousel-inner .carousel-item {
   transition-property: opacity;
-  background-position: center top;
+  background-position: center center;
 }
 #servicehero .carousel-inner .carousel-item,
 #servicehero .carousel-inner .active.carousel-item-start,
