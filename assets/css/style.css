@@ -1959,10 +1959,10 @@ section {
   animation-delay: 0.8s;
   margin-top: 6px;
   border: 2px solid #fff;
-  background: #fca311;
+  background: #082150;
 }
 #special1 .btn-get-started:hover {
-  background: #082150;
+  background: #fca311;
   color: #fff;
   text-decoration: none;
 }
