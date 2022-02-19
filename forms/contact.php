@@ -40,5 +40,7 @@
 
   $contact->bcc = array('adrian@polywhiz.com', 'adrian@thefullstackers.com');
 
+  $contact->recaptcha_secret_key = '6LezZYseAAAAANkdjB38yoza7QTl3YID07N3W2ID';
+
   echo $contact->send();
 ?>
