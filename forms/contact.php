@@ -19,6 +19,7 @@
   $contact->ajax = true;
   
   $contact->to = $receiving_email_address;
+  $contact->mailer = "enquiries@atadvisers.com.au";
   $contact->from_name = $_POST['name'];
   $contact->from_email = $_POST['email'];
   $contact->subject = $_POST['subject'];
@@ -36,6 +37,8 @@
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['message'], 'Message', 10);
+
+  $contact->bcc = array('adrian@polywhiz.com', 'adrian@thefullstackers.com');
 
   echo $contact->send();
 ?>
