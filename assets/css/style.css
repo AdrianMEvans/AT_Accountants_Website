@@ -1599,13 +1599,15 @@ section {
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
+
 .jotform {
   background: #ffffff;
-  border-top: 3px solid #FBA310;
-  border-bottom: 3px solid #FBA310;
+  border-top: 3px solid #FcA311;
+  border-bottom: 3px solid #FcA311;
   padding: 30px;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
+
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
 }
